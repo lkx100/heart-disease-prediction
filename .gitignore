@@ -9,3 +9,6 @@ wheels/
 # Virtual environments
 .venv
 A novel study.pdf
+heart_disease/
+.DS_Store
+

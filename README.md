@@ -18,10 +18,14 @@ The main purpose of this paper is to explore the potential of data mining and ma
 ## 3. Dataset Used (in Reviewed Studies):
 
 The paper frequently mentions the UCI Machine Learning Repository, specifically the Cleveland heart disease dataset. This dataset is described as having:
-
 - 303 instances (records) in some studies, and 401 records in another study mentioned in the literature review.
-
 - 76 attributes/characteristics originally, but many studies reviewed focused on using a reduced set of 14 or 17 key features/characteristics for prediction.
+
+**Additional Information**
+This database contains 76 attributes, but all published experiments refer to using a subset of 14 of them.  In particular, the Cleveland database is the only one that has been used by ML researchers to date.  The "goal" field refers to the presence of heart disease in the patient.  It is integer valued from 0 (no presence) to 4. Experiments with the Cleveland database have concentrated on simply attempting to distinguish presence (values 1,2,3,4) from absence (value 0). 
+
+Has Missing Values?
+Yes 
 
 ## 4. Algorithms Used (in Reviewed Studies):
 
